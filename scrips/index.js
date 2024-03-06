@@ -10,3 +10,11 @@ function createSquare(value, onClick) {
     button.addEventListener('click', onClick);
     return button;
 }
+const board = document.getElementById('game-board')
+for (let i = 0; i < 3; i++) {
+    const rowDiv = document.createElement('div')
+    for (let j = 0; j < 3; j++) {
+        rowDiv.appendChild((createSquare(i * 3 + j, null)))
+    }
+    board.appendChild(rowDiv)
+}
