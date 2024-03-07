@@ -13,7 +13,7 @@
     <a href="https://github.com/rafeuddaraj/tic-tac-toe"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="raw-tic-tac-toe.vercel.app">View Demo</a>
+    <a href="https:/raw-tic-tac-toe.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/rafeuddaraj/tic-tac-toe/issues">Report Bug</a>
     ·
