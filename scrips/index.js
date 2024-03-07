@@ -42,8 +42,8 @@ function createBoard(squares, xIsNext, onPlay) {
         status.textContent = 'Next player: ' + (xIsNext ? 'X' : 'O');
     }
 
-    // Insert the status before the moves list
-    document.getElementById('game-info').insertBefore(status, document.getElementById('moves-list'));
+    // Set the status info
+    document.getElementById('status-info').textContent = status.textContent
 
     // Function to handle square button click
     function handleClick(i) {
